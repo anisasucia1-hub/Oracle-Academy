@@ -1,0 +1,22 @@
+public class StringCompareTest {
+    public static void main(String[] args) {
+        String s1 = "ABC";
+        String s2 = new String("DEF");
+        String s3 = "AB" + "C";
+
+        // a. s1.compareTo(s2);
+        System.out.println("a. s1.compareTo(s2) = " + s1.compareTo(s2));
+
+        // b. s2.equals(s3);
+        System.out.println("b. s2.equals(s3) = " + s2.equals(s3));
+
+        // c. s3 == s1;
+        System.out.println("c. s3 == s1 = " + (s3 == s1));
+
+        // d. s2.compareTo(s3);
+        System.out.println("d. s2.compareTo(s3) = " + s2.compareTo(s3));
+
+        // e. s3.equals(s1);
+        System.out.println("e. s3.equals(s1) = " + s3.equals(s1));
+    }
+}
